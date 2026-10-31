@@ -2,21 +2,71 @@
 <html lang="th">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monney-Memo</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding-top: 80px; background-color: #f9f9f9; }
-        .logo { width: 120px; height: auto; margin-bottom: 20px; border-radius: 8px; }
-        .btn { display: inline-block; background: #0b57d0; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; margin-top: 20px; }
-        .btn:hover { background: #0842a0; }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .card {
+            background: white;
+            padding: 25px 20px;
+            border-radius: 16px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 90%;
+            max-width: 480px;
+            margin: 20px;
+        }
+        .banner {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-size: 24px;
+            color: #1b5e20;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 14px;
+            color: #388e3c;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+        .btn {
+            display: inline-block;
+            background: #2e7d32;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 16px;
+            width: 100%;
+            transition: background 0.3s;
+        }
+        .btn:hover { background: #1b5e20; }
     </style>
-    <meta http-equiv="refresh" content="3;url=https://script.google.com/macros/s/AKfycbzVhuk7DJQ1f-SGiagiEvMOEuHolrCl65jxY4ZAsZSWtPn6sGfLS9sIXv8DbFth9y4n/exec">
+    <meta http-equiv="refresh" content="4;url=https://script.google.com/macros/s/AKfycbzVhuk7DJQ1f-SGiagiEvMOEuHolrCl65jxY4ZAsZSWtPn6sGfLS9sIXv8DbFth9y4n/exec">
 </head>
 <body>
-    <img src="https://via.placeholder.com/100" alt="Logo" class="logo">
-    <img src="https://via.placeholder.com/120" alt="Logo" class="logo">
-    
-    <h2>Monney-Memo</h2>
-    <p>ระบบกำลังพาท่านไปยังระบบวิเคราะห์และติดตามสถานะทางการเงิน...</p>
-    <a class="btn" href="https://script.google.com/macros/s/AKfycbzVhuk7DJQ1f-SGiagiEvMOEuHolrCl65jxY4ZAsZSWtPn6sGfLS9sIXv8DbFth9y4n/exec">คลิกเพื่อเข้าสู่ระบบทันที</a>
+    <div class="card">
+        <!-- เปลี่ยนชื่อไฟล์ตรง src ให้ตรงกับรูปที่คุณอัปโหลด -->
+        <img src="Gemini_Generated_Image_s8sgzgs8sgzgs8sg.jpg" alt="Monney-Memo Banner" class="banner">
+        <h1>Monney-Memo</h1>
+        <p>ระบบวิเคราะห์และติดตามสถานะทางการเงินส่วนบุคคล<br>กำลังพาท่านเข้าสู่ระบบอัตโนมัติ...</p>
+        <a class="btn" href="https://script.google.com/macros/s/AKfycbzVhuk7DJQ1f-SGiagiEvMOEuHolrCl65jxY4ZAsZSWtPn6sGfLS9sIXv8DbFth9y4n/exec">เข้าสู่ระบบทันที</a>
+    </div>
 </body>
 </html>
